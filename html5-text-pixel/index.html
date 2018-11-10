@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>抽奖页面</title>
+  <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+</head>
+
+<body>
+    <div class="videocontainer">
+       <video muted id="video" class="video" autoplay="autoplay" loop="loop" src="E:\web前端学习\demo\canvas\html5-text-pixel\top .webm"></video>
+    </div>
+    
+  <canvas id="text" width="700" height="200" style="position: absolute;left: -600px;top: 191px"></canvas>
+  <canvas id="stage" width="500" height="100"></canvas>
+  <form id="form">
+      <input type="submit" value="GO" id="ok"/>
+
+  </form>
+  <div style="text-align:center;clear:both">
+  </div>
+  <div class="test">
+    <p><span id="xuehao"></span></p>
+  </div>
+    <script src='js/EasePack.min.js'></script><script src='js/TweenLite.min.js'></script><script src='js/easeljs-0.7.1.min.js'></script><script src='js/requestAnimationFrame.js'></script>
+    <script src="index.js"></script>
+
+</body>
+</html>
